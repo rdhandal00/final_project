@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Test your Skill</title>
+</head>
+<body style="background-color:lightgrey">
+  <section class="main">
+	<h1>Test Your Skill </h1>
+  <h2>General Knowledge Quiz<h2>
+  <div class="container">
+    
+    <div class="inner">
+      <form id="weather">
+		<input type="button" id="navigator" index="0" onclick="startTest();return false;" value="Start Test" style="height:40px;width:80px"/>
+      </form>
+	  <input type="hidden" id="quesId" value="" />
+	  <input type="hidden" id="correctAnsCount" value="" />
+        <div id="question">
+
+		</div>
+     
+	   <form>
+			<div id="optionDiv">
+
+			</div>
+		</form>
+      </div>
+    </div>
+  </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
